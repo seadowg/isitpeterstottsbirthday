@@ -2,11 +2,20 @@ require 'sinatra'
 
 module Content
   VIDEOS = [
-    "//www.youtube.com/embed/DbGPFsBPtgo"
+    "//www.youtube.com/embed/DbGPFsBPtgo",
+    "//www.youtube.com/embed/OHC_ytdgfXY",
+    "//www.youtube.com/embed/J78Rg7VnRiA",
+    "//www.youtube.com/embed/8i-uR7p2XII",
+    "//www.youtube.com/embed/pSkObM50LBA",
+    "//www.youtube.com/embed/ZDoi_kg5qHg"
   ]
 
   IMAGES = [
-    "happy.jpg"
+    "happy.jpg",
+    "hef.jpg",
+    "middle.jpg",
+    "crazy.jpg",
+    "sad_cake.jpg"
   ]
 end
 

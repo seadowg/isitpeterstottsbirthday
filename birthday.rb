@@ -30,8 +30,7 @@ class Birthday < Sinatra::Base
   private
 
   def birthday?(date)
-    #date.month == 8 && date.day == 27
-    true
+    date.month == 8 && date.day == 27
   end
 
   def choose_fun

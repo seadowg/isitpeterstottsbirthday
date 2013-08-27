@@ -1,0 +1,3 @@
+require './birthday'
+
+run Birthday

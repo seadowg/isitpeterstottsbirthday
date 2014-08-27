@@ -22,7 +22,7 @@ end
 class Birthday < Sinatra::Base
   get'/' do
     erb :index, :locals => {
-      :birthday => birthday?(Date.today),
+      :birthday => birthday?(Time.now.localtime("+01:00")),
       :fun => choose_fun
     }
   end

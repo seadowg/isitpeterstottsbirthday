@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+  <head>
+    <title>Is it Peter Stott's Birthday?</title>
+  </head>
+  <body>
+    <div id="answer">No.</div>
+    <script>
+      const today = new Date()
+      if (today.getMonth() == 7 && today.getDate() == 27) {
+        document.getElementById("answer").innerText = "Yes."
+      }
+    </script>
+  </body>
+</html>

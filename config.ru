@@ -1,3 +1,0 @@
-require './birthday'
-
-run Birthday

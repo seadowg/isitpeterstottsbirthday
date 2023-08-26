@@ -1,14 +1,29 @@
 <!DOCTYPE html>
   <head>
     <title>Is it Peter Stott's Birthday?</title>
+    <style type="text/css">
+      #image {
+        display: block;
+        margin: auto;
+      }
+
+      #answer {
+        margin-top: 1em;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <img src="public/sad.jpg"/>
-    <div id="answer">No.</div>
+    <div>
+      <img id="image" src="public/sad.jpg"/>
+      <h1 id="answer">No.</h1>
+    </div>
+    
     <script>
       const today = new Date()
       if (today.getMonth() == 7 && today.getDate() == 27) {
         document.getElementById("answer").innerText = "Yes."
+        document.getElementById("image").src = "public/happy.jpg"
       }
     </script>
   </body>
